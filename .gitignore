@@ -1,1 +1,5 @@
 .venv/
+node_modules/
+
+server/static
+server/templates

@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-d", "--debug", help="run app in debug mode", action="store_true")
 
 # app instantiation
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__)
 
 
 @app.route('/')
